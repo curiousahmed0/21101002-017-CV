@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  font-family: TT Commons, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
+    Cantarell, Noto Sans, sans-serif;
+}
+
+.main-box {
+  display: flex;
+  width: 100vw;
+  height: 100%;
+}
+
+.box-1 {
+  flex: 35%;
+  background-color: #0f3871;
+}
+
+.box-2 {
+  flex: 65%;
+  background-color: white;
+}
+
+.profile-pic {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading-name {
+  margin-top: 40px;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.line {
+  background-color: rgba(255, 255, 255, 0.655);
+  height: 1px;
+  width: 50px;
+}
+
+.line-break {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profesional-title {
+  color: rgba(255, 255, 255, 0.655);
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.details-box,
+.links-box,
+.skills-box,
+.languagesBox {
+  margin-top: 60px;
+  margin-left: 152px;
+}
+
+.details,
+.links,
+.skills,
+.languages {
+  color: white;
+}
+
+.details-head,
+.links-head,
+.skills-head,
+.language-head {
+  font-size: 22px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.link-style {
+  margin-top: 10px;
+  text-decoration: none;
+  display: block;
+  color: white;
+}
+
+.country,
+.city,
+.mobile,
+.email {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.wrapperBarBox {
+  margin-top: 10px;
+  display: flex;
+  width: 280px;
+  height: 4px;
+}
+
+.bar1 {
+  flex: 80%;
+  background-color: white;
+}
+.bar2 {
+  flex: 20%;
+  background-color: rgba(255, 255, 255, 0.655);
+}
+
+.bar3 {
+  flex: 65%;
+  background-color: white;
+}
+
+.bar4 {
+  flex: 35%;
+  background-color: rgba(255, 255, 255, 0.655);
+}
+
+.bar5 {
+  flex: 100%;
+  background-color: white;
+}
+
+.bar6 {
+  flex: 0%;
+  background-color: rgba(255, 255, 255, 0.655);
+}
+
+.Box-1-footer {
+  height: 400px;
+}
+
+.skill-element {
+  margin-top: 20px;
+}
+
+.tempbox {
+  margin-top: 130px;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.heading-text {
+  margin-top: 30px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.para-text {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.sub-heading-text {
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.light-heading-text {
+  margin-top: 10px;
+  font-size: 12px;
+  font-weight: lighter;
+}
